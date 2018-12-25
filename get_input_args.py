@@ -41,7 +41,7 @@ def get_input_args():
 
     parser = argparse.ArgumentParser(description='Retrieves images, choose the model, and save result')
 
-    parser.add_argument('--dir', type=str, default='pet_images',
+    parser.add_argument('--dir', type=str, default='pet_images/',
                     help='Image Folder as --dir with default value pet_images')
 
     parser.add_argument('--arch', type=str, default='vgg',
