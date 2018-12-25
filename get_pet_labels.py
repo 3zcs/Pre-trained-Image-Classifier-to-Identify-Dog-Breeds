@@ -45,9 +45,12 @@ def get_pet_labels(image_dir):
     filename_list = listdir(image_dir)
     # Creates empty dictionary named results_dic
     results_dic = dict()
-    
+
     # Print 10 of the filenames from folder pet_images/
     for filename in filename_list:
+        # ignor files start with dot
+        if filename.startswith('.'):
+            pass
         # Sets filename to lower case letters
         low_pet_image = filename.lower()
 
