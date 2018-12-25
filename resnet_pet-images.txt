@@ -1,0 +1,91 @@
+
+Printing all key-value pairs in dictionary results_dic:
+40
+Filename= cat_01.jpg    Pet Label= 1
+Filename= Poodle_07927.jpg    Pet Label= 1
+Filename= cat_02.jpg    Pet Label= 1
+Filename= Great_dane_05320.jpg    Pet Label= 1
+Filename= Dalmatian_04068.jpg    Pet Label= 1
+Filename= gecko_02.jpg    Pet Label= 1
+Filename= cat_07.jpg    Pet Label= 1
+Filename= Great_pyrenees_05435.jpg    Pet Label= 1
+Filename= German_shepherd_dog_04931.jpg    Pet Label= 1
+Filename= German_shepherd_dog_04890.jpg    Pet Label= 1
+Filename= Collie_03797.jpg    Pet Label= 1
+Filename= Saint_bernard_08010.jpg    Pet Label= 1
+Filename= Dalmatian_04037.jpg    Pet Label= 1
+Filename= Rabbit_002.jpg    Pet Label= 1
+Filename= polar_bear_04.jpg    Pet Label= 1
+Filename= Poodle_07956.jpg    Pet Label= 1
+Filename= fox_squirrel_01.jpg    Pet Label= 1
+Filename= Beagle_01170.jpg    Pet Label= 1
+Filename= Boston_terrier_02285.jpg    Pet Label= 1
+Filename= skunk_029.jpg    Pet Label= 1
+Filename= Boston_terrier_02303.jpg    Pet Label= 1
+Filename= Miniature_schnauzer_06884.jpg    Pet Label= 1
+Filename= Beagle_01141.jpg    Pet Label= 1
+Filename= Basenji_00974.jpg    Pet Label= 1
+Filename= gecko_80.jpg    Pet Label= 1
+Filename= Dalmatian_04017.jpg    Pet Label= 1
+Filename= Boxer_02426.jpg    Pet Label= 1
+Filename= Basenji_00963.jpg    Pet Label= 1
+Filename= Boston_terrier_02259.jpg    Pet Label= 1
+Filename= Golden_retriever_05182.jpg    Pet Label= 1
+Filename= Golden_retriever_05223.jpg    Pet Label= 1
+Filename= great_horned_owl_02.jpg    Pet Label= 1
+Filename= Saint_bernard_08036.jpg    Pet Label= 1
+Filename= Golden_retriever_05195.jpg    Pet Label= 1
+Filename= Beagle_01125.jpg    Pet Label= 1
+Filename= Great_pyrenees_05367.jpg    Pet Label= 1
+Filename= German_shorthaired_pointer_04986.jpg    Pet Label= 1
+Filename= Cocker_spaniel_03750.jpg    Pet Label= 1
+Filename= Golden_retriever_05257.jpg    Pet Label= 1
+Filename= Basset_hound_01034.jpg    Pet Label= 1
+
+ ** Statistics from calculates_results_stats() function:
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog:  90.0  Pct Corr Breed:  90.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog:  90.0  Pct Corr Breed:  90.0
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+ 
+pct_match           : 82.500000
+pct_correct_dogs    : 100.000000
+pct_correct_breed   : 90.000000
+pct_correct_notdogs : 90.000000
+
+INCORRECT Dog/NOT Dog Assignments:
+Image Labels norwegian elkhound, elkhound
+Classifying Labels 0
+Image Labels cat
+Classifying Labels 1
+Image Labels african chameleon, chamaeleo chamaeleon
+Classifying Labels 0
+Image Labels cat
+Classifying Labels 1
+Image Labels rabbit
+Classifying Labels 1
+Image Labels polar bear
+Classifying Labels 1
+Image Labels fox squirrel
+Classifying Labels 1
+Image Labels skunk
+Classifying Labels 1
+Image Labels tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui
+Classifying Labels 0
+Image Labels great grey owl, great gray owl, strix nebulosa
+Classifying Labels 0
+
+INCORRECT Dog Breed Assignment:
+Real:                     beagle   Classifier:  walker hound, walker foxhound
+Real:           golden retriever   Classifier:                       leonberg
+Real:             great pyrenees   Classifier:                         kuvasz
+
+** Total Elapsed Runtime: 0:0:9
